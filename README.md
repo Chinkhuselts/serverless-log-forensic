@@ -33,7 +33,7 @@ The system parses Apache/Nginx logs line-by-line looking for signature-based thr
 
 ### 3. Storage & Analytics (DynamoDB)
 Threats are extracted and stored structurally for analysis.
-![DynamoDB Proof](./screenshots/database_proof.jpg)
+![DynamoDB Proof](./screenshots/database_proof.png)
 
 ### 4. Intelligence Dashboard
 A local Python script queries DynamoDB to visualize attack distribution.
