@@ -4,15 +4,15 @@
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 
-## 📖 Project Overview
+## Project Overview
 A fully automated, serverless pipeline that detects web attacks (SQL Injection, XSS) in real-time. It uses **Infrastructure as Code (Terraform)** to provision resources and **AWS Lambda** to process logs immediately upon upload to S3.
 
-### 🏗️ Architecture
+### Architecture
 ![System Architecture](./screenshots/diagram.png)
 
 ---
 
-## 🚀 Features
+## Features
 * **Event-Driven Architecture:** No servers to manage; code runs only when data arrives.
 * **Infrastructure as Code:** Entire stack (S3, IAM, Lambda, DynamoDB) deployed via Terraform.
 * **Pattern Matching:** Custom Regex engine to identify malicious payloads.
@@ -20,7 +20,7 @@ A fully automated, serverless pipeline that detects web attacks (SQL Injection, 
 
 ---
 
-## 🛠️ Implementation Details
+## Implementation Details
 
 ### 1. Infrastructure (Terraform)
 Automatic provisioning of the full stack (S3, Lambda, DynamoDB, IAM Roles).
@@ -41,7 +41,7 @@ A local Python script queries DynamoDB to visualize attack distribution.
 
 ---
 
-## 💻 How to Run
+## How to Run
 
 ### Prerequisites
 * AWS CLI configured
